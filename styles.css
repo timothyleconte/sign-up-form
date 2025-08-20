@@ -1,8 +1,21 @@
 .container{
     display: flex;
+    box-sizing: border-box;
 }
 
 .right-side{
     display: flex;
     flex-direction: column;
+}
+
+.left-side{
+    width: 30%;
+}
+
+.top{
+    background-color: lightgray;
+}
+
+.bottom{
+    background-color: lightgray;
 }
