@@ -1,6 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     display: flex;
     box-sizing: border-box;
+    min-height: 100vh;
 }
 
 .right-side{
@@ -9,7 +15,9 @@
 }
 
 .left-side{
-    width: 30%;
+    width: 40%;
+    background-image: url(./background.jpg);
+    background-size: cover;
 }
 
 .top{
@@ -18,4 +26,25 @@
 
 .bottom{
     background-color: lightgray;
+}
+
+.form-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    background-color: black;
+    color:white;
+    opacity: 0.5;
 }
