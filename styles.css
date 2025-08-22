@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "Odin";
+    src: url(./fonts/Norse-Bold.otf) format("opentype");
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -18,33 +23,64 @@ html, body {
     width: 40%;
     background-image: url(./background.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .top{
     background-color: lightgray;
+    padding: 50px 0 25px 30px;
 }
 
 .bottom{
     background-color: lightgray;
+    padding: 20px 0 200px 30px;
 }
 
 .form-left{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .form-right{
     display: flex;
     flex-direction: column;
-}
-
-.middle{
-    display: flex;
-    flex-direction: row;
+    gap: 10px;
 }
 
 .logo{
     background-color: black;
     color:white;
     opacity: 0.5;
+}
+
+.container-two{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.odin-logo{
+    height: 100px;
+    width: auto;
+}
+
+.logo{
+    font-family: Odin;
+    font-size: 100px;
+}
+
+.top-text{
+    width: 50%;
+}
+
+button{
+    padding: 15px 40px;
+    background-color: #596D48;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
 }
